@@ -43,5 +43,26 @@ return [
             "text" => "SHOP",
         ]
     ],
-    'someOtherData' => [ 42, 37, 73],
+    'section1Footer' => [
+        [
+            'img' => 'resources/img/buy-comics-merchandise.png',
+            'text'=> 'DIGITAL COMICS',
+        ],
+        [
+            'img' => "{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}",
+            'text'=> 'DIGITAL COMICS',
+        ],
+        [
+            'img' => "{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}",
+            'text'=> 'DIGITAL COMICS',
+        ],
+        [
+            'img' => "{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}",
+            'text'=> 'DIGITAL COMICS',
+        ],
+        [
+            'img' => "{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}",
+            'text'=> 'DIGITAL COMICS',
+        ],
+],
 ];

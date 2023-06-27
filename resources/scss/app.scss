@@ -67,3 +67,29 @@ header{
         width: 170px;
     }
 }
+
+.custom_buy{
+    max-height: 50px;
+}
+.custom_buy_svg{
+    width: 50px;
+}
+
+.footer_bg{
+    background-image: url('/resources/img/footer-bg.jpg');
+    margin: -1rem;
+
+    ul li{
+        list-style: none;
+    }
+
+    ul li a{
+        text-decoration: none;
+    }
+}
+.bg_logo {
+    height: 100%;
+    background-image: url('resources/img/dc-logo-bg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
