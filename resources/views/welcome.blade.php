@@ -6,6 +6,7 @@
         <div class="col d-flex justify-content-between flex-wrap ">
             @foreach ($comics as $item)
                 <div class="thumb-container">
+                    <a href="{{url('comics/'.$item['series'].'/')}}">
                     <img src="{{$item['thumb']}}" alt="{{$item['title']}}" class="img-fluid">
                     {{$item['title']}}
                 </div>

@@ -24,3 +24,15 @@ Route::get('/otherpage', function () {
     $links = config('store.someLinks');
     return view('other', compact('links'));
 });
+
+Route::get('/comics/{series}', function (string $series) {
+    // Header Data
+    $links = config('store.someLinks');
+    // Content Data
+    $comic = config('comics');
+    $slides = array('comics' => $comic, 'serie' => $series);
+
+    // Footer Data
+
+    return view('other', compact('links', 'comic','slides'));
+});
