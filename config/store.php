@@ -4,15 +4,43 @@ return [
     'someLinks' => [
         [
             "href" => "/",
-            "text" => "Home Page",
+            "text" => "CHARACTERS",
+        ],
+        [
+            "href" => "/",
+            "text" => "COMICS",
+        ],
+        [
+            "href" => "/",
+            "text" => "MOVIES",
         ],
         [
             "href" => "/otherpage",
-            "text" => "Other Page",
+            "text" => "TV",
         ],
         [
-            "href" => "https://laravel.com/docs/9.x",
-            "text" => "Documentation",
+            "href" => "/",
+            "text" => "GAMES",
+        ],
+        [
+            "href" => "/",
+            "text" => "COLLECTIBLES",
+        ],
+        [
+            "href" => "/",
+            "text" => "VIDEOS",
+        ],
+        [
+            "href" => "/",
+            "text" => "FANS",
+        ],
+        [
+            "href" => "/",
+            "text" => "NEWS",
+        ],
+        [
+            "href" => "/",
+            "text" => "SHOP",
         ]
     ],
     'someOtherData' => [ 42, 37, 73],
