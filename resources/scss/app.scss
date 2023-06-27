@@ -23,6 +23,27 @@ footer {
     color: black;
 }
 
-header img.logo {
-    height: 2rem;
+header{ 
+.logo {
+        width: 70px;
+    }
+
+    .header_container {
+        height: 120px;
+        display: flex;
+    }
+
+    a{
+        display: flex;
+        list-style: none;
+        padding-left: 1rem;
+        font-size: small;
+        padding-top: 1rem;
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: 5px solid rgb(0, 119, 255);
+    }
 }
