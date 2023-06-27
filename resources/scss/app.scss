@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-}
-
 body {
     background-color: #222;
     color: white;
@@ -45,5 +41,29 @@ header{
 
     a:hover {
         border-bottom: 5px solid rgb(0, 119, 255);
+    }
+}
+.jumbotron_custom{
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+
+    img{
+        height: 150%;
+        width: 100%;
+    }
+    .btn_custom{
+        transform: translateY(-50%);
+    }
+}
+
+.thumb-container{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    img{
+        height: 170px;
+        width: 170px;
     }
 }

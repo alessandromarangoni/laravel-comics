@@ -14,12 +14,10 @@
 <body class="">
     <!--  Includo l'header del sito web con il menu tramite un partial -->
     @include('partials.header')
-    <section>
-        @include('partials.jumbotron')
-    </section>
-    <main>
-        @yield('content')
-    </main>
+    @include('partials.jumbotron')
+    
+
+    @yield('content')
 
     <!-- Includo il footer del sito web tramite un partial -->
     @include('partials.footer')
